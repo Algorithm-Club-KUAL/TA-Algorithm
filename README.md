@@ -45,8 +45,9 @@ KUAL 레퍼지토리 사용법(꼭 읽어주세요)
 ![image](https://user-images.githubusercontent.com/83203154/227700614-a71214a5-f3ca-428f-bfd0-8e27daf4e67d.png)
 
 ### 7. git remote -v를 실행시키면 현재 연결되어 있는 원격저장소를 나타내는 것인데 Origin은 자신의 원격저장소이며, 그 다음에 추가 할 것은 그룹 원격저장소를 추가할 것입니다.
-### git remote add upstream 
+### 그룹 원격 저장소를 추가하기 위해 git remote add upstream https://github.com/Algorithm-Club-KUAL/TA-Algorithm.git 을 작성하세요
 
+![image](https://user-images.githubusercontent.com/83203154/227701003-1eaf0caa-9026-4b29-95d0-6404e9d7b899.png)
 
 
 
