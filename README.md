@@ -72,7 +72,22 @@ KUAL 레퍼지토리 사용법(꼭 읽어주세요)
 ![image](https://user-images.githubusercontent.com/83203154/227702401-2cd078ab-3b82-4706-be05-c5889ff6b86b.png)
 #### tips : upstream/ 작성후 탭키를 누르면 자동완성됩니다.  여기서 upstream/main은 fetch를 통해 받아온 업데이트 정보를 담고 있는 원격 저장소의 브랜치라고 보면 됩니다.
 
-#### 5. 그룹 원격저장소와 로컬 저장소와의 동기화(fetch와 merge)가 완료되면, 앞으로 알고리즘 내용을 이름 별로 관리하기 위해서 디렉토리를 생성합니다. 
+#### 5. 그룹 원격저장소와 로컬 저장소와의 동기화(fetch와 merge)가 완료되면, 앞으로 알고리즘 내용을 이름 별로 관리하기 위해서 디렉토리를 생성합니다.(ex : git bash 커맨드라인에서 mkdir SM이나 SM폴더 생성)
+#### ※주의 : CSM(시문)은 제 이름의 약자이며 자신의 이름 약자를 적어야합니다. 만약에 초성이 겹쳐 이미 폴더가 존재할 경우 구분지어서 만들어 주세요.
+![image](https://user-images.githubusercontent.com/83203154/227702860-512843e1-8395-4e5c-b8a7-e45a29f48131.png)
+#### 6. git add . 을 해서 로컬에서 추가한 폴더를 stage 영역으로 올린다.
+![image](https://user-images.githubusercontent.com/83203154/227703268-4f7ae06f-9057-4347-a30e-46aeb6b6cd54.png)
+#### 7. git commit -m "이름 폴더 생성"
+![image](https://user-images.githubusercontent.com/83203154/227703344-d31d5190-00de-46f5-bc2f-8eec07963bd9.png)
+#### 8. 마지막으로 그룹 원격 저장소와 자신의 원격 저장소에 올리기.
+![image](https://user-images.githubusercontent.com/83203154/227703427-7bf341cf-cbb4-4e10-9656-2e8b2e19dfc7.png)
+
+![image](https://user-images.githubusercontent.com/83203154/227703527-b9ce756b-cfe4-4fa3-9f6d-2445d6e1c8b7.png)
+
+
+
+
+
 
 
 
