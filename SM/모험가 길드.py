@@ -2,7 +2,7 @@ N = int(input())
 list1 = list(map(int, input().split()))
 
 member = 0
-maxfear = -1
+
 group = 0
 for i in range(N):
     cur = list1[i]
