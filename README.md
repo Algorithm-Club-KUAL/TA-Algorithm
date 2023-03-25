@@ -59,7 +59,7 @@ KUAL 레퍼지토리 사용법(꼭 읽어주세요)
 
 # 앞으로 어떤 식으로 진행되는지에 대한 개략도입니다.
 
-![image](https://user-images.githubusercontent.com/83203154/227701659-929713ac-ef2e-4a36-b76a-5fc6e2a939ef.png)
+![image](https://user-images.githubusercontent.com/83203154/227704123-347f42b1-4f97-44a8-a691-3095644568d9.png)
 
 ### 위 그림의 순서
 #### 1. fork를 통해 upstream의 레퍼지토리를 origin으로 복사하였습니다. (위의 내용을 진행하였다면 이 부분은 신경 쓰지않아도 됩니다.)
@@ -84,6 +84,24 @@ KUAL 레퍼지토리 사용법(꼭 읽어주세요)
 
 ![image](https://user-images.githubusercontent.com/83203154/227703527-b9ce756b-cfe4-4fa3-9f6d-2445d6e1c8b7.png)
 
+
+#### 만약에 자신의 원격저장소 git push origin main에서 아래와 같은 에러가 뜬다면 현재 로컬저장소와 자신의 원격저장소가 동기화 된 것이 아니기 때문에
+git fetch origin을 하고 git merge origin/main을 작성해주어 동기화를 시켜줘야 합니다.
+![image](https://user-images.githubusercontent.com/83203154/227704291-72be89f8-ecff-4d72-97fc-fb82a6bb1932.png)
+
+![image](https://user-images.githubusercontent.com/83203154/227704413-449d6d45-094d-4b2b-b66c-945c5af0e56e.png)
+
+
+
+
+#### 9. 확인하기
+![image](https://user-images.githubusercontent.com/83203154/227704187-f05fbf46-1c50-4459-a97e-7ef4041bf7a3.png)
+
+
+
+
+
+## README 수정/ 2023-03-25 ver
 
 
 
