@@ -101,7 +101,8 @@ git fetch origin을 하고 git merge origin/main을 작성해주어 동기화를
 
 
 
-## README 수정/ 2023-03-25 ver
+## README 수정/ 2023-03-25 ver 작성자 : 천시문
+추후 각 개인 브랜치를 통해 병합하는 과정 설명 예정
 
 
 
