@@ -67,7 +67,7 @@ KUAL 레퍼지토리 사용법(꼭 읽어주세요)
 #### 3. 여기서부터 중요합니다. git fetch upstream ( 뜻 : Git에서 fetch는 원격 저장소에서 반영된 내용을 받아 올 때 사용하는 명령어입니다. 즉 여러분께서 알고리즘 문제를 그룹 레퍼지토리에 올릴때마다 업데이트가 되는 것인데 이 업데이트 내용을 자신의 로컬저장소의 버전을 맞추기 위해 진행하는 것 입니다.)
 ![image](https://user-images.githubusercontent.com/83203154/227702285-756f88a7-d76f-4539-a5f1-7a033c4be6eb.png)
 
-#### 4. 패치된 내용을 받아왔으면,  merge를 통해 main 혹은 master (git bash에서 보면 됨) 병합합니다.
+#### 4. 패치된 내용을 받아왔으면,  merge를 통해 main (git bash에서 보면 됨) 병합합니다. 만약에 자신이 main이 아니고 master일시 git branch -M main을 타이핑하여 master를 main으로 고쳐주세요.(현재 로컬저장소가 main이 메인 브랜치이기 때문에 master가 생기면 곤란하게 됩니다.)
 ![image](https://user-images.githubusercontent.com/83203154/227702352-fbf97899-4532-4a99-8d3f-f6ac7a3c7b0a.png)
 ![image](https://user-images.githubusercontent.com/83203154/227702401-2cd078ab-3b82-4706-be05-c5889ff6b86b.png)
 #### tips : upstream/ 작성후 탭키를 누르면 자동완성됩니다.  여기서 upstream/main은 fetch를 통해 받아온 업데이트 정보를 담고 있는 원격 저장소의 브랜치라고 보면 됩니다.
